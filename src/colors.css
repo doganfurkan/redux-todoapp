@@ -1,0 +1,150 @@
+body{
+    background:repeating-linear-gradient(white 0 30px,#ddd 30px 31px);
+}
+
+body:before{
+    border-right:1px solid red;
+}
+
+#logo{
+    box-shadow: .15em .15em skyblue;
+    background: #fff;
+    border:3px solid #000;  
+}
+
+#theme button{
+    background: linear-gradient(145deg, #dcdcdc, #ffffff);
+    border-right:5px solid #dcdcdc;
+    border-bottom:4px solid #dcdcdc;  
+}
+
+#kutu{
+    box-shadow: 1em 1em skyblue;
+}
+
+#kutu input{
+    background: #fff;
+    border: 1px solid #000;  
+}
+
+#kutu button{
+    background: black;
+    color: #fff;
+}
+
+#list{
+    border: 1px solid #000;
+    box-shadow: 1em 1em skyblue;  
+}
+
+.listItem:not(:last-child) {
+    border-bottom: 1px solid #000;
+}
+
+.tmm{
+    background: #000;
+    color: #fff;  
+}
+
+.not{
+    background: #fff;
+}
+
+.sil{
+    background: rgb(237, 127, 163);
+    color:#000;
+}
+
+footer a{
+    color: #000;
+    text-shadow: 0.1em 0.1em skyblue;
+}
+
+#buttons{
+    box-shadow: .5em .5em skyblue;
+}
+
+#filters button{
+    background: #000;
+    color:#fff;
+}
+
+body.dark{
+    background:repeating-linear-gradient(black 0 30px,#555 30px 31px);
+    color:rgb(212, 212, 212)
+}
+
+body.dark:before{
+    border-right-color:rgb(92, 0, 0);
+}
+
+body.dark #logo{
+    box-shadow: .15em .15em rgb(74, 108, 121);
+    background: rgb(0, 0, 0);
+    border:3px solid rgb(212,212,212);
+}
+
+body.dark #theme button{
+    background: linear-gradient(145deg, #343434, #535353);
+    border-right:5px solid #343434;
+    border-bottom:4px solid #343434;  
+    color:inherit;
+}
+
+body.dark #kutu{
+    box-shadow: 1em 1em rgb(74, 108, 121);
+}
+
+body.dark #kutu input{
+    background: #000;
+    border: 1px solid #343434;  
+}
+
+body.dark #kutu button{
+    background: linear-gradient(145deg, #343434, #535353);
+    color:rgb(212, 212, 212)
+}
+
+body.dark #list{
+    border: 1px solid #535353;
+    box-shadow: 1em 1em rgb(74, 108, 121);  
+}
+
+body.dark .listItem:not(:last-child) {
+    border-bottom: 1px solid #535353;
+  }
+
+body.dark .tmm{
+    background:linear-gradient(145deg, #343434, #535353);
+    color: rgb(212, 212, 212);  
+}
+
+body.dark .not{
+    background: #000;
+}
+
+body.dark .sil{
+    background: rgb(122, 11, 48);
+    color:rgb(212, 212, 212);
+}
+
+body.dark footer a{
+    color: rgb(212, 212, 212);
+    text-shadow: 0.1em 0.1em rgb(74, 108, 121);
+}
+
+body.dark #buttons{
+    background:linear-gradient(315deg, #343434, #535353);
+    box-shadow: .5em .5em rgb(74, 108, 121);
+}
+
+body.dark #filters button{
+    background:transparent;
+    color:rgb(212, 212, 212);
+}
+
+@media screen and (max-width:600px) {
+    body.dark #kutu,body.dark #list{
+        box-shadow: 0.5em 0.5em rgb(74, 108, 121);
+    }
+}
