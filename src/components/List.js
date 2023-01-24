@@ -69,7 +69,9 @@ if (error) {
           );
         })
       ) : (
-        <div className="not">Burada bir şey yok!</div>
+        <div className="listItem">
+          <div className="not">Burada bir şey yok!</div>
+        </div>
       )}
     </div>
   );

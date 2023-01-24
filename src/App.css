@@ -131,6 +131,7 @@ header {
 .listItem {
   display: flex;
   width: 100%;
+  font-size:.9em;
 }
 
 .listItem.completed .not{
