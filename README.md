@@ -1,3 +1,7 @@
+#Todo App Using React and Redux
+###Preview
+(Önizleme)[https://drive.google.com/file/d/1BvLCDOuVUT-7GQz0wHHWjFHTRvOXjn1X/view?usp=sharing]
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
