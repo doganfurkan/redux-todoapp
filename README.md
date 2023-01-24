@@ -1,5 +1,5 @@
-#Todo App Using React and Redux
-###Preview
+# Todo App Using React and Redux
+### Preview
 ![Önizleme](./önizleme.png)
 
 # Getting Started with Create React App
