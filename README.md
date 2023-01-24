@@ -1,4 +1,5 @@
 # Todo App Using React and Redux
+[See it live](https://redux-todo-app-fd.netlify.app)
 ### Preview
 ![Önizleme](./önizleme.png) ![Menülü Önizleme](./menuluönizleme.png)
 
