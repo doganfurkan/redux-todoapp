@@ -1,7 +1,6 @@
-import { useEffect } from "react";
 import { AiOutlineCheck, AiFillDelete } from "react-icons/ai";
 import { useSelector, useDispatch } from "react-redux";
-import { toggle, destroy, getTodosAsync } from "../redux/todos/todosSlice";
+import { toggle, destroy } from "../redux/todos/todosSlice";
 let filtreli = [];
 
 export default function List() {
@@ -10,7 +9,7 @@ export default function List() {
   const activeFilter = useSelector((state) => state.todos.activeFilter);
 
   filtreli = items;
-  if (activeFilter != "all") {
+  if (activeFilter !== "all") {
     filtreli = items.filter((todo) =>
       activeFilter === "active"
         ? todo.completed === false

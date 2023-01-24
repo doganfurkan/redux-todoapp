@@ -1,4 +1,4 @@
-import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
+import {createSlice} from "@reduxjs/toolkit";
 /* 
 API İşlemleri-------------------
 
@@ -34,7 +34,7 @@ export const todosSlice = createSlice({
         },
         allDone: (state) => {
             state.items.map((o) => {
-                o.completed = true;
+                return  o.completed = true;
             })
         },
         destroyDones: (state) => {
@@ -44,8 +44,8 @@ export const todosSlice = createSlice({
             state.items = []
         },
         allNotDone: (state) => {
-            state.items.map((o) => {
-                o.completed = false;
+              state.items.map((o) => {
+                return o.completed = false;
             })
         }
     },

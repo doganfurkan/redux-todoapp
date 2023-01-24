@@ -8,7 +8,7 @@ import {nanoid} from "@reduxjs/toolkit"
 function Content() {
   const items = useSelector((state) => state.todos.items);
   console.log(items);
-  const waitin = items.filter(item => item.completed == false);
+  const waitin = items.filter(item => item.completed === false);
   const [newTodo, setNewTodo] = useState("");
   const dispatch = useDispatch();
 

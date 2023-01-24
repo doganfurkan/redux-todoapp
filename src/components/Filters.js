@@ -11,9 +11,9 @@ export default function Filters() {
   return (
     <div id="filters">
       <div id="buttons">
-      <button onClick={(e) => {handleChange("all")}} className={activeFilter == "all" ? "selected" : ""}>Tümü</button>
-      <button onClick={(e) => {handleChange("active")}} className={activeFilter == "active" ? "selected" : ""}>Aktif</button>
-      <button onClick={(e) => {handleChange("completed")}} className={activeFilter == "completed" ? "selected" : ""}>Yapılmış</button>
+      <button onClick={(e) => {handleChange("all")}} className={activeFilter === "all" ? "selected" : ""}>Tümü</button>
+      <button onClick={(e) => {handleChange("active")}} className={activeFilter === "active" ? "selected" : ""}>Aktif</button>
+      <button onClick={(e) => {handleChange("completed")}} className={activeFilter === "completed" ? "selected" : ""}>Yapılmış</button>
       </div>
     </div>
   );
