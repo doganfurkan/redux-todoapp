@@ -41,9 +41,18 @@ body:before{
     border-bottom: 1px solid #000;
 }
 
+.listItem.completed .tmm{
+    color: rgb(55, 170, 2);
+    background: #fff;
+}
+
 .tmm{
     background: #000;
     color: #fff;  
+}
+
+.listItem.completed .not{
+    color:#bbb
 }
 
 .not{
@@ -114,9 +123,17 @@ body.dark .listItem:not(:last-child) {
     border-bottom: 1px solid #535353;
   }
 
+body.dark .listItem.completed .tmm{
+    background: #000;
+}
+
 body.dark .tmm{
     background:linear-gradient(145deg, #343434, #535353);
     color: rgb(212, 212, 212);  
+}
+
+body.dark .listItem.completed .not{
+    color:#343434
 }
 
 body.dark .not{

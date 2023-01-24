@@ -7,18 +7,9 @@ export default function List() {
   console.log(items);
   return (
     <div id="list">
-      <div className="listItem">
-        <button className="tmm">
-          <AiOutlineCheck />
-        </button>
-        <div className="not">Bu benim notum</div>
-        <button className="sil">
-          <AiFillDelete />
-        </button>
-      </div>
       {items.map((item, key) => {
         return (
-          <div className="listItem" key={key}>
+          <div className={`listItem ${item.completed ? "completed" : ""}`} key={key}>
             <button className="tmm">
               <AiOutlineCheck />
             </button>

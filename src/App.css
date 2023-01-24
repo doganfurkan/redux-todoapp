@@ -89,6 +89,10 @@ header {
   width: 100%;
 }
 
+.listItem.completed .not{
+  text-decoration:line-through;
+}
+
 .tmm {
   padding: 1em;
   cursor: pointer;
