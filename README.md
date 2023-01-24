@@ -1,6 +1,6 @@
 #Todo App Using React and Redux
 ###Preview
-![Önizleme](https://drive.google.com/file/d/1BvLCDOuVUT-7GQz0wHHWjFHTRvOXjn1X/view?usp=sharing)
+![Önizleme](./önizleme.png)
 
 # Getting Started with Create React App
 
