@@ -15,6 +15,42 @@ body:before{
   position: absolute;
   z-index: -1;
 }
+
+#menu{
+  width:auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 9;
+  bottom:100%;
+  transition: .5s;
+  font-size:.9em;
+  right:0;
+}
+
+#menu.acik{
+  top:100%;
+}
+
+#menuDuzen{
+  max-width: 800px;
+  width:100%;
+  padding:0 1em 1em;
+}
+
+#menu ul{
+  background: #fff;
+  box-shadow: 1em 1em skyblue;
+  border:1px solid #000;
+  border-bottom:0;
+}
+
+#menu li{
+  list-style: none;
+  padding:1em 1.5em;
+  border-bottom:1px solid #000
+}
+
 header {
   width: 100%;
   display: flex;
@@ -28,6 +64,7 @@ header {
   align-items: center;
   max-width: 800px;
   width: 100%;
+  position: relative;
 }
 
 #logo {
@@ -35,6 +72,11 @@ header {
   font-weight: 800;
  /* text-shadow: 0.1em 0.1em skyblue; */
   padding:.1em .2em;
+}
+
+#theme{
+  display: flex;
+  gap:.5em;
 }
 
 #theme button {
@@ -71,7 +113,7 @@ header {
 
 #kutu form input {
   width: 100%;
-  padding: 1em 1em 1em 2em;
+  padding: 1em;
 }
 
 #kutu form button {
@@ -80,8 +122,10 @@ header {
   font-weight: 600;
 }
 
-#list {
-  margin-top: 1.2em;
+#total {
+  padding:.8em;
+  font-size:.8em;
+  opacity: .5;
 }
 
 .listItem {
@@ -124,7 +168,11 @@ header {
 #filters button{
   padding:.75em 1.25em;
   border:0;
-  cursor:pointer
+  cursor:pointer;
+}
+
+#filters button.selected{
+  font-weight: bolder;
 }
 
 footer {
@@ -145,7 +193,7 @@ footer a:hover {
 
 @media screen and (max-width: 600px) {
   #list,
-  #kutu {
+  #kutu,#menu ul {
     box-shadow: 0.5em 0.5em skyblue;
   }
 
