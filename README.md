@@ -1,6 +1,6 @@
 # Todo App Using React and Redux
 ### Preview
-![Önizleme](./önizleme.png)
+![Önizleme](./önizleme.png) ![Menülü Önizleme](./menuluönizleme.png)
 
 # Getting Started with Create React App
 
