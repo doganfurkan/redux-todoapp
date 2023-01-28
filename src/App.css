@@ -35,12 +35,12 @@ body:before{
 #menuDuzen{
   max-width: 800px;
   width:100%;
-  padding:0 1em 1em;
+  padding:0 1rem 1rem;
 }
 
 #menu ul{
   background: #fff;
-  box-shadow: 1em 1em skyblue;
+  box-shadow: 1rem 1rem skyblue;
   border:1px solid #000;
   border-bottom:0;
 }
@@ -195,7 +195,7 @@ footer a:hover {
 @media screen and (max-width: 600px) {
   #list,
   #kutu,#menu ul {
-    box-shadow: 0.5em 0.5em skyblue;
+    box-shadow: 0.5rem 0.5rem skyblue;
   }
 
   #headerduzen {
