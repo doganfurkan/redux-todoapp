@@ -14,8 +14,8 @@ function Header() {
           <button onClick={()=> {
             document.body.classList.toggle("dark");
             setTheme(!theme)
-          }}>{theme ? <RiSunFill/> : <RiMoonClearFill/>}</button>
-          <button onClick={() => {setAcik(!acik)}}>
+          }} title="themechanger">{theme ? <RiSunFill/> : <RiMoonClearFill/>}</button>
+          <button title="menuButton" onClick={() => {setAcik(!acik)}}>
             <RiAppsFill/>
           </button>
         </div>
