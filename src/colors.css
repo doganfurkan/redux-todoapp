@@ -177,7 +177,7 @@ body.dark #filters button.selected{
 body.dark #menu ul{
     background: #000;
     border-color:#343434;
-    box-shadow: 1em 1em rgb(74, 108, 121);
+    box-shadow: 1rem 1rem rgb(74, 108, 121);
 }
 
 body.dark #menu li{
