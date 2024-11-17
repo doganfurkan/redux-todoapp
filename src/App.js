@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     if(localStorage.getItem("todos")){
-      JSON.parse(localStorage.getItem("todos")).map(item => {
+      JSON.parse(localStorage.getItem("todos")).forEach(item => {
         dispatch(addTodo(item));
       })
     }
