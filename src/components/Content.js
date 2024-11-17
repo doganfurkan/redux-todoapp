@@ -14,7 +14,8 @@ function Content() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(addTodo({id: nanoid(),title:newTodo,completed:false}));
+    let itm = {id: nanoid(),title:newTodo,completed:false}
+    dispatch(addTodo(itm));
     setNewTodo("")
   };
   return (

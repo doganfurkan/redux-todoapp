@@ -17,17 +17,20 @@ export const todosSlice = createSlice({
     },
     reducers:{
         addTodo: (state, action) => {
-            state.items.push(action.payload)
+            state.items.push(action.payload);
+            localStorage.setItem("todos", JSON.stringify(state.items));
         },
         toggle: (state,action)=>{
             const {id} = action.payload;
             const item = state.items.find(item => item.id === id);
             item.completed = !item.completed;
+            localStorage.setItem("todos", JSON.stringify(state.items));
         },
         destroy: (state, action) => {
             const id = action.payload;
             const filtered = state.items.filter(item => item.id !== id);
             state.items = filtered;
+            localStorage.setItem("todos", JSON.stringify(state.items));
         },
         changeFilter: (state,action) => {
             state.activeFilter = action.payload;
@@ -39,14 +42,17 @@ export const todosSlice = createSlice({
         },
         destroyDones: (state) => {
             state.items = state.items.filter(item => item.completed === false);
+            localStorage.setItem("todos", JSON.stringify(state.items));
         },
         destroyAll: (state) => {
             state.items = []
+            localStorage.setItem("todos", JSON.stringify(state.items));
         },
         allNotDone: (state) => {
               state.items.map((o) => {
                 return o.completed = false;
             })
+            localStorage.setItem("todos", JSON.stringify(state.items));
         }
     },
 /* 
