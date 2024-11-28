@@ -85,12 +85,12 @@ footer a{
 }
 
 body.dark{
-    background:repeating-linear-gradient(black 0 30px,#555 30px 31px);
+    background:#000;
     color:rgb(212, 212, 212)
 }
 
 body.dark:before{
-    border-right-color:rgb(92, 0, 0);
+    border-right-color:transparent;
 }
 
 body.dark #logo{
