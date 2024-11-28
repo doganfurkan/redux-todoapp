@@ -155,12 +155,12 @@ body.dark .sil{
 
 body.dark footer a{
     color: rgb(212, 212, 212);
-    text-shadow: 0.1em 0.1em rgb(74, 108, 121);
+    text-shadow: 0.1em 0.1em #343434;
 }
 
 body.dark #buttons{
     background:linear-gradient(315deg, #343434, #535353);
-    box-shadow: .5em .5em rgb(74, 108, 121);
+    box-shadow: .5em .5em #343434;
     border:1px solid #000;
 }
 
