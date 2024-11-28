@@ -186,10 +186,10 @@ body.dark #menu li{
 
 @media screen and (max-width:600px) {
     body.dark #kutu,body.dark #list,#menu ul{
-        box-shadow: 0.5em 0.5em rgb(74, 108, 121);
+        box-shadow: 0.5em 0.5em #343434;
     }
 
     body.dark #menu ul{
-        box-shadow: .5em .5em rgb(74, 108, 121);
+        box-shadow: .5em .5em #343434;
     }
 }
