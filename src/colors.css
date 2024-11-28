@@ -24,7 +24,8 @@ body:before{
 
 #kutu input{
     background: #fff;
-    border: 1px solid #000;  
+    border: 1px solid #000;
+    color:inherit;  
 }
 
 #kutu button{
