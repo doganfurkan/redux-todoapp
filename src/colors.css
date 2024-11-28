@@ -94,7 +94,7 @@ body.dark:before{
 }
 
 body.dark #logo{
-    box-shadow: .15em .15em rgb(74, 108, 121);
+    box-shadow: .15em .15em #343434;
     background: rgb(0, 0, 0);
     border:3px solid rgb(212,212,212);
 }
@@ -107,7 +107,7 @@ body.dark #theme button{
 }
 
 body.dark #kutu{
-    box-shadow: 1em 1em rgb(74, 108, 121);
+    box-shadow: 1em 1em #343434;
 }
 
 body.dark #kutu input{
@@ -122,7 +122,7 @@ body.dark #kutu button{
 
 body.dark #list{
     border: 1px solid #535353;
-    box-shadow: 1em 1em rgb(74, 108, 121);  
+    box-shadow: 1em 1em #343434;  
 }
 
 body.dark .listItem:not(:last-child) {
